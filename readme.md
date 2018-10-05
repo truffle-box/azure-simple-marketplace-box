@@ -8,12 +8,16 @@ The Simple Marketplace application expresses a workflow for a simple transaction
 between an owner and a buyer in a marketplace.  The state transition diagram
 below shows the interactions among the states in this workflow. 
 
+<br />
+
 Application Roles 
 ------------------
 | Name                   | Description                                       |
 |------------------------|---------------------------------------------------|
 |Owner |A person who wants to sell on the marketplace. |
 |Buyer |A person who wants to buy from the marketplace. |
+
+<br />
 
 States 
 -------
@@ -24,10 +28,12 @@ States 
 |OfferPlaced |Indicates that a seller has made an offer to buy the item listed by an owner. 
 |Accepted |Indicates that the owner has accepted the buyer's offer for the item. 
 
+<br />
+
 Workflow Details
 ----------------
 
-![workflow details for application](media/a98d6da0441c39cf0e2d82b2f4faaff3.png)
+![workflow details for application](https://raw.githubusercontent.com/caleteeter/simple-marketplace/master/media/a98d6da0441c39cf0e2d82b2f4faaff3.png)
 
 An instance of the Simple Marketplace application's workflow starts in the
 ItemAvailable state when an Owner makes an item available for sale by specifying
@@ -45,11 +51,11 @@ made. 
 A happy path shown in the transition diagram traces an owner making an item
 available, a buyer making an offer, and the owner accepting the offer. 
 
- 
+<br />
  
 Application Files
 -----------------
 
-[SimpleMarketplace.json](./ethereum/SimpleMarketplace.json)
+[SimpleMarketplace.json](https://raw.githubusercontent.com/caleteeter/simple-marketplace/master/SimpleMarketplace.json)
 
-[SimpleMarketplace.sol](./ethereum/SimpleMarketplace.sol)
+[SimpleMarketplace.sol](https://raw.githubusercontent.com/caleteeter/simple-marketplace/master/contracts/SimpleMarketplace.sol)
