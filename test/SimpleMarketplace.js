@@ -51,7 +51,7 @@ contract('SimpleMarketplace', (accounts) => {
             assert.equal(buyer, actualBuyer, 'buyer was not properly set.')
             truffleAssert.eventEmitted(result, 'ContractUpdated', (ev) => {
                 return ev.action == 'MakeOffer';
-            }, 'Contract should return the correct message');
+            }, 'Contract should emit the correct message');
         });
     })
 
@@ -72,7 +72,7 @@ contract('SimpleMarketplace', (accounts) => {
             assert.equal(2, state, 'state was not set to Accepted');
             truffleAssert.eventEmitted(result, 'ContractUpdated', (ev) => {
                 return ev.action == 'AcceptOffer';
-            }, 'Contract should return the correct message');
+            }, 'Contract should emit the correct message');
         });
     })
 
@@ -102,7 +102,7 @@ contract('SimpleMarketplace', (accounts) => {
             assert.equal(zeroAddress, instanceBuyer);
             truffleAssert.eventEmitted(result, 'ContractUpdated', (ev) => {
                 return ev.action == 'Reject';
-            }, 'Contract should return the correct message');
+            }, 'Contract should emit the correct message');
         });
     })
 })
