@@ -24,16 +24,16 @@ States 
 
 | Name                   | Description                                       |
 |------------------------|---------------------------------------------------|
-|ItemAvailable |Indicates that an owner has made the item they want to sell available in the marketplace. 
-|OfferPlaced |Indicates that a seller has made an offer to buy the item listed by an owner. 
-|Accepted |Indicates that the owner has accepted the buyer's offer for the item. 
+|ItemAvailable |Indicates that an owner has made the item they want to sell available in the marketplace.
+|OfferPlaced |Indicates that a seller has made an offer to buy the item listed by an owner.
+|Accepted |Indicates that the owner has accepted the buyer's offer for the item.
 
 <br />
 
 Workflow Details
 ----------------
 
-![workflow details for application](https://raw.githubusercontent.com/caleteeter/simple-marketplace/master/media/a98d6da0441c39cf0e2d82b2f4faaff3.png)
+![workflow details for application](https://raw.githubusercontent.com/truffle-box/azure-simple-marketplace-box/master/media/a98d6da0441c39cf0e2d82b2f4faaff3.png)
 
 An instance of the Simple Marketplace application's workflow starts in the
 ItemAvailable state when an Owner makes an item available for sale by specifying
@@ -52,10 +52,8 @@ A happy path shown in the transition diagram traces an owner making an item
 available, a buyer making an offer, and the owner accepting the offer. 
 
 <br />
- 
+
 Application Files
 -----------------
 
-[SimpleMarketplace.json](https://raw.githubusercontent.com/caleteeter/simple-marketplace/master/SimpleMarketplace.json)
-
-[SimpleMarketplace.sol](https://raw.githubusercontent.com/caleteeter/simple-marketplace/master/contracts/SimpleMarketplace.sol)
+[SimpleMarketplace.sol](https://raw.githubusercontent.com/truffle-box/azure-simple-marketplace-box/master/contracts/SimpleMarketplace.sol)
